@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "is this for foyer own components",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/PONKUMAR-B/FoyerPackages/issues"
   },
-  "homepage": "https://github.com/PONKUMAR-B/FoyerPackages#readme",
+  "homepage": "https://github.com/PONKUMAR-B/FoyerPackages",
   "devDependencies": {
     "@babel/cli": "^7.25.9",
     "@babel/core": "^7.26.0",
@@ -28,20 +29,6 @@
     "@babel/preset-react": "^7.25.9"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.5",
-    "@emotion/styled": "^11.13.5",
     "react-scripts": "^5.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
